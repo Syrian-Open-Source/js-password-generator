@@ -42,7 +42,7 @@ class PasswordGenerator{
             });
 
         }
-        password = password.slice(0,10);
+        password = password.slice(0,this.settings.passwordLength);
         for(let i =0; i<16; i++)
         {
             password = this.#shuffle(password);
@@ -68,4 +68,4 @@ class PasswordGenerator{
     }
 }
 
-exports.PasswordGenerator = PasswordGenerator;
+module.exports = PasswordGenerator;
