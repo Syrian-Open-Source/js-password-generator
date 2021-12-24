@@ -51,4 +51,5 @@ allowedSymbols: '!@#$%^&*(){}[]=/<>,.'
 Credits
 -------
 - [Linkedin Account](https://www.somar-kesen.com/)  </br>
-- [My website](https://www.somar-kesen.com/)
+- [My website](https://www.somar-kesen.com/) </br>
+- [All contributors](https://github.com/Syrian-Open-Source/js-password-generator/graphs/contributors)
