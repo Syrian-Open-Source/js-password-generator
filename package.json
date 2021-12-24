@@ -1,0 +1,19 @@
+{
+  "name": "sos-password-generator",
+  "version": "1.0.0",
+  "description": "Secure passwords generator",
+  "main": "src/password-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdussalam-alali/js-password-generator.git"
+  },
+  "author": "Syrian Open Source",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdussalam-alali/js-password-generator/issues"
+  },
+  "homepage": "https://github.com/abdussalam-alali/js-password-generator#readme"
+}
