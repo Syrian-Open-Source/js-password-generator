@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdussalam-alali/js-password-generator.git"
+    "url": "git+https://github.com/Syrian-Open-Source/js-password-generator.git"
   },
   "author": "Syrian Open Source",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abdussalam-alali/js-password-generator/issues"
+    "url": "https://github.com/Syrian-Open-Source/js-password-generator/issues"
   },
-  "homepage": "https://github.com/abdussalam-alali/js-password-generator#readme"
+  "homepage": "https://github.com/Syrian-Open-Source/js-password-generator#readme"
 }
