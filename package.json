@@ -1,6 +1,6 @@
 {
   "name": "sos-password-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Secure passwords generator",
   "main": "src/password-generator.js",
   "scripts": {
