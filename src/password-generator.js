@@ -21,7 +21,7 @@ class PasswordGenerator{
 
     #randomFunc = {
         hasLower: ()=> { return this.#getRandomCharacter(97,26)},
-        hasUpper: ()=> { return this.#getRandomCharacter(97,26)},
+        hasUpper: ()=> { return this.#getRandomCharacter(65,26)},
         hasNumber: ()=>{ return this.#getRandomCharacter(48,10) },
         hasSymbol: ()=> { return this.settings.allowedSymbols[Math.floor(Math.random() * this.settings.allowedSymbols.length)];
         },
@@ -36,6 +36,7 @@ class PasswordGenerator{
                     return item
                 });
 
+                
         for (let i = 0; i < this.settings.passwordLength; i += typesCount){
             typesArr.forEach((type) => {
                 password += this.#randomFunc[type]();
