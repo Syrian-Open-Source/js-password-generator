@@ -10,7 +10,7 @@
 const PasswordGenerator = require('sos-password-generator')
 ```
 
-2. Create an instance of PowerGenerator Class
+2. Create an instance of PasswordGenerator Class
 
 ```javascript
 const generator = new PasswordGenerator();
