@@ -29,7 +29,7 @@ class PasswordGenerator{
      generatePassword(){
         let password = "";
 
-        const typesCount = Object.values(this.settings).filter(item=>{if(item===true) return item}).length;
+        const typesCount = Object.values(this.settings).filter((item) => item).length;
         const typesArr = Object.keys(this.settings)
             .filter((item) =>
                 {  if(this.settings[item]===true)
